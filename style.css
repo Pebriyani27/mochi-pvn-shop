@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin-top: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #ff0090;
+}
+.medsos	ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+}
+header h1{
+	float: left;
+	padding: 15px 0px;
+	color: #ff0090;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #ff0090;
+	color: #fff;
+}
+.active{
+	background-color: #ff0090;
+	color: #fff;
+}
+.mochi{
+	height: 60vh;
+	background-image: url(../img/mochi.jpeg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mochi:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255,105,180, .4);
+}
+.mochi h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: #ff0090;
+}
+.about p{
+	color: #ac1e44;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.contact{
+	background-color: #B3FAE9;
+}
+footer{
+	padding: 30px 0;
+	background-color: #ff0090;
+	color: #000000;
+	text-align: center;
+}
+.services{
+	background-color: #f4f0ec;
+}
+.box{
+	color: #ff0090;
+}
+.box:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.box .col-4{
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+
+}
+.icon{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	top: 10px;
+	font-size: 20px;
+	margin: 0 auto;
+}
+.box .col-4 h4{
+	margin: 20px 0;
+}
+.box .col-3{
+	width: 25%;
+	padding: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	top: 10px;
+	float: left;
+}
